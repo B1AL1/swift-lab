@@ -14,6 +14,8 @@
 		3F5C87922BDCFAC5001EBF14 /* MemoryGameKKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C87912BDCFAC5001EBF14 /* MemoryGameKKTests.swift */; };
 		3F5C879C2BDCFAC5001EBF14 /* MemoryGameKKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C879B2BDCFAC5001EBF14 /* MemoryGameKKUITests.swift */; };
 		3F5C879E2BDCFAC5001EBF14 /* MemoryGameKKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C879D2BDCFAC5001EBF14 /* MemoryGameKKUITestsLaunchTests.swift */; };
+		3F5C87AB2BDCFCD7001EBF14 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C87AA2BDCFCD7001EBF14 /* CardView.swift */; };
+		3F5C87AD2BDD166C001EBF14 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C87AC2BDD166C001EBF14 /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3F5C87972BDCFAC5001EBF14 /* MemoryGameKKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameKKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5C879B2BDCFAC5001EBF14 /* MemoryGameKKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameKKUITests.swift; sourceTree = "<group>"; };
 		3F5C879D2BDCFAC5001EBF14 /* MemoryGameKKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameKKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F5C87AA2BDCFCD7001EBF14 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3F5C87AC2BDD166C001EBF14 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				3F5C87802BDCFAC4001EBF14 /* MemoryGameKKApp.swift */,
 				3F5C87822BDCFAC4001EBF14 /* ContentView.swift */,
+				3F5C87AC2BDD166C001EBF14 /* ThemeView.swift */,
+				3F5C87AA2BDCFCD7001EBF14 /* CardView.swift */,
 				3F5C87842BDCFAC5001EBF14 /* Assets.xcassets */,
 				3F5C87862BDCFAC5001EBF14 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5C87AD2BDD166C001EBF14 /* ThemeView.swift in Sources */,
 				3F5C87832BDCFAC4001EBF14 /* ContentView.swift in Sources */,
+				3F5C87AB2BDCFCD7001EBF14 /* CardView.swift in Sources */,
 				3F5C87812BDCFAC4001EBF14 /* MemoryGameKKApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
